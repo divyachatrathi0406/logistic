@@ -1,1 +1,4 @@
-
+import streamlit as st
+import pickle
+pickle_in=open('logistic','rb')
+model=pickle.load(pickle_in)
